@@ -4,8 +4,10 @@ WORKDIR /app
 
 COPY requirements.txt .
 
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["gunicorn", "-b", ":8080", "app:app"]
+EXPOSE 8080
+
+CMD ["gunicorn", "-b", ":8080", "sentiment_api:app"]
