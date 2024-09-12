@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "author_id": "1272881032308629506",
+      "created_at": "2021-03-21T20:50:14.000Z",
+      "id": "20",
+      "text": "wah jaringan telkomsel lambat banget di wilayah semarang"
+    },
+    {
+      "author_id": "783214",
+      "created_at": "2021-06-19T17:40:09.000Z",
+      "id": "1274034244700930049",
+      "text": "Kenapa lagi ini jaringan telkomsel bermasalah di sulsel"
+    },
+    {
+      "author_id": "783214",
+      "created_at": "2021-06-19T17:06:20.000Z",
+      "id": "1274025734990897152",
+      "text": "iya ini sama, jaringan tsel gak bisa konek di surabaya"
+    },
+    {
+      "author_id": "130649891",
+      "created_at": "2020-06-26T09:02:25.000Z",
+      "id": "1276440670631124993",
+      "text": "kalau aku di tegal masih bagus jaringan telkomsel"
+    },
+    {
+      "author_id": "773578328498372608",
+      "created_at": "2020-06-26T07:41:29.000Z",
+      "id": "1276420300641406976",
+      "text": "iya di tegal jaringan telkomsel lancar"
+    },
+    {
+      "author_id": "1884191208",
+      "created_at": "2020-06-26T07:41:29.000Z",
+      "id": "1276420300641406976",
+      "text": "iya di tegal jaringan telkomsel lancar"
+    }
+  ],
+  "errors": [
+    {
+      "detail": "Could not find tweet with ids: [1276230436478386177].",
+      "title": "Not Found Error",
+      "resource_type": "tweet",
+      "parameter": "ids",
+      "value": "1276230436478386177",
+      "type": "https://api.twitter.com/2/problems/resource-not-found"
+    }
+  ]
+}
