@@ -11,6 +11,9 @@ import json
 app = Flask(__name__)
 CORS(app)
 
+nltk.download('stopwords', quiet=True)
+nltk.download('punkt', quiet=True)
+
 stop_words_indo = set(stopwords.words('indonesian'))
 
 factory = StemmerFactory()
